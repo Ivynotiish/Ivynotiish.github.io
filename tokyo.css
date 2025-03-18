@@ -935,22 +935,21 @@
     #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
     #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
 
-/*TopBar*/
-    #app-mount .typeWindows__421ed {
-        background-color: var(--secondary3-colour); 
-        border-bottom: 2px solid var(--primary3-colour); 
-        height: 30px;
-        margin: 0px;
-         
+/* TopBar */
+     #app-mount .typeWindows__421ed {
+    background-color: var(--secondary3-colour); 
+    border-bottom: 2px solid var(--primary3-colour); 
+    height: 30px;
+    margin: 0px;
+    position: absolute;
+    top: 8px;
+    left: 43.2%;
+     }
+
      #app-mount .typeWindows__421ed::after {
     content: "Tokyo Ghoul By Ivy" !important;
     color: rgba(255, 255, 255, 0.5) !important;
     font-weight: 500 !important;
      }
-        position: absolute;
-        top: 8px;
-        left: 43.2%;
-    }
-
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
