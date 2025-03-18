@@ -945,11 +945,5 @@
     top: 8px;
     left: 43.2%;
      }
-
-     #app-mount .typeWindows__421ed::after {
-    content: "Tokyo Ghoul By Ivy" !important;
-    color: rgba(255, 255, 255, 0.5) !important;
-    font-weight: 500 !important;
-     }
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
