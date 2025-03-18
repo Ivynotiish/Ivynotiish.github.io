@@ -942,11 +942,15 @@
         height: 30px;
         margin: 0px;
     }
-     #app-mount .typeWindows__421ed:after {
+#app-mount .typeWindows__421ed::after {
+    display: none;
+}
+
+#app-mount .typeWindows__421ed::before {
     content: "Tokyo Ghoul By Ivy" !important;
     color: rgba(255, 255, 255, 0.5) !important;
     font-weight: 500 !important;
-     }
+}
         position: absolute;
         top: 8px;
         left: 43.2%;
